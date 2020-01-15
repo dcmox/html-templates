@@ -1,59 +1,65 @@
+<!DOCTYPE html>
 <html>
 	<head>
         <title>Single Column Design</title>
         <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="single-column.css" /> 
+        <meta property="og:image" content="https://www.site.com/thumbnail.jpg">
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta property="og:title" content="Single column design" />
+		<meta property="og:description" content="Free template for a single column design layout" />
+		<meta name="description" content="Free template for a single column design layout" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
-	<body>
-        <main>
-            <header>
-                <h1 id="logo">site<span>name</span></h1>
-                <nav class="desktop">
-                    <a href="#" class="active">Home</a><a href="#">About</a><a href="#">Info</a><a href="#">Contact</a>
-                </nav>
-                          
-                <div id="search">
-                    <input type="text" id="search" placeholder="Search" />
+	<body class="home">
+        <header>
+            <h1 id="logo">site<span>name</span></h1>
+            <nav class="desktop">
+                <a href="#" class="active">Home</a><a href="#">About</a><a href="#">Info</a><a href="#">Contact</a>
+            </nav>
+                        
+            <div id="search">
+                <input type="text" id="search" placeholder="Search" />
+            </div>
+            <nav class="mobile">
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <a href="#"><li>Home</li></a>
+                        <a href="#"><li>About</li></a>
+                        <a href="#"><li>Info</li></a>
+                        <a href="#"><li>Contact</li></a>
+                    </ul>
                 </div>
-                <nav class="mobile">
-                    <div id="menuToggle">
-                        <input type="checkbox" />
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <ul id="menu">
-                            <a href="#"><li>Home</li></a>
-                            <a href="#"><li>About</li></a>
-                            <a href="#"><li>Info</li></a>
-                            <a href="#"><li>Contact</li></a>
-                        </ul>
-                    </div>
-                </nav>
+            </nav>
 
-                <!--
-                    <a href="#" class="cart"><i class="fas fa-shopping-cart"></i></a>
-                -->
+            <!--
+                <a href="#" class="cart"><i class="fas fa-shopping-cart"></i></a>
+            -->
 
-            </header>
+        </header>
 
-            <h3>Categories</h3>
-            <section id="categories">
-                <a href="#" class="category">
-                    <span>Desktop PCs</span>
-                </a>
-                <a href="#" class="category">
-                    <span>Monitors</span>
-                </a>
-                <a href="#" class="category">
-                    <span>Games</span>
-                </a>
-                <a href="#" class="category">
-                    <span>Accessories</span>
-                </a>
-            </section>
+        <h3>Categories</h3>
+        <section id="categories">
+            <a href="#" class="category">
+                <span>Desktop PCs</span>
+            </a>
+            <a href="#" class="category">
+                <span>Monitors</span>
+            </a>
+            <a href="#" class="category">
+                <span>Games</span>
+            </a>
+            <a href="#" class="category">
+                <span>Accessories</span>
+            </a>
+        </section>
 
-            <hr />
-
+        <hr />
+        <main>
             <h3>Featured</h3>
             <section id="featured">
                 <article>
@@ -73,10 +79,10 @@
                     </p>
                 </article>                
             </section>
-            <footer>
-                &copy; Daniel Moxon - <a href="https://github.com/dcmox/html-templates">GitHub.com</a>
-            </footer>
         </main>
+        <footer>
+            &copy; 2020 Daniel Moxon - <a href="https://github.com/dcmox/html-templates">GitHub.com</a>
+        </footer>
     </body>
     <!-- This demo was created by Daniel Moxon @ github.com/dcmox -->
 </html>

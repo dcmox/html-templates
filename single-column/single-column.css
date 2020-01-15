@@ -1,12 +1,15 @@
-body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0 auto; overflow-x: hidden; }
-body a:hover {text-decoration: underline;}
-main { 
+html { background-color: #fff; }
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 0 auto; 
+    overflow-x: hidden; 
     max-width: 960px; 
     padding: 15px 20px; 
     margin: 0 auto;
     background-color: #eee;
-    min-height: 100%;
+    min-height: 100vh;
 }
+body a:hover {text-decoration: underline;}
 header {
     padding: 0px 10px;
     background-color: #111;
